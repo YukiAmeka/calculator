@@ -1,0 +1,15 @@
+body div {
+    display: grid;
+    grid-template: repeat(5, 50px) / repeat(6, 50px);
+}
+
+body div input {
+    width: 95%;
+    margin: 0px;
+    grid-column: 1 / 7;
+}
+
+body div .btnEqual {
+    width: 100%;
+    grid-column: 5 / 7;
+}
